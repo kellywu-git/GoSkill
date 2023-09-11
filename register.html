@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>Register</title>
+<link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+	<h1>Welcome to GoSkill, please sign up here</h1>
+	        <form action=' /goskill/registerservlet' method='post'>
+	             <p>user Name: <input type='text' name='username' /><br>
+	            <p>Password: <input type='text'  name='password'></br>
+				   <p>Email: <input type='text' name='email' /><br>
+				<label>skillHave：</label>
+<label><input type="radio" name="skillHave" value="Cook" />Cook</label>
+<label><input type="radio" name="skillHave" value="Language" />Language</label>
+<label><input type="radio" name="skillHave" value="Sports" />Sports</label>
+<label><input type="radio" name="skillHave" value="Music" />Music</label>
+				    </br>
+				<label>skillWant：</label>
+<label><input type="radio" name="skillWant" value="Programming" />Programming</label>
+<label><input type="radio" name="skillWant" value="Painting" />Painting</label>
+<label><input type="radio" name="skillWant" value="Yoga" />Yoga</label>
+
+				    </br>
+				
+	       
+	         <input type='submit' value='Submit' />
+	         </form>
+	     
+</body>
+</html>
